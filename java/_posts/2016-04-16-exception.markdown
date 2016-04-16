@@ -89,6 +89,7 @@ if(_map == null){
 _map.put(myKey, myValue);
 {% endhighlight %}
 
+可以参考：[When is it OK to use exception handling for business logic?](http://stackoverflow.com/questions/5378005/when-is-it-ok-to-use-exception-handling-for-business-logic)
 
 ### 不指定具体的异常
 尽量不要为了省事，就只捕获Exception类型的异常。
