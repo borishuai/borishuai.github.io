@@ -10,6 +10,11 @@
 <input type="file" accept="image/*;capture=camera">
 
 <input type="file" accept="image/*" capture>
+
+<form action="server.cgi" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" accept="image/*" capture>
+  <input type="submit" value="Upload">
+</form>
 <canvas></canvas>
 </body>  
 <html>  
